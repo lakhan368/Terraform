@@ -1,5 +1,5 @@
 resource "aws_instance" "server" {
-  count         = 2
+  count         = 1
   ami           = var.ec2_image
   instance_type = var.ec2_instance_type
 
