@@ -30,8 +30,3 @@ resource "aws_security_group" "allow_http" {
   tags          = local.common_tags 
 }
 
-resource "aws_s3_bucket" "module_example" {
-  bucket = var.s3_bucket_name
-
-  tags   = local.common_tags 
-}
