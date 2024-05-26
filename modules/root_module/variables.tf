@@ -18,7 +18,4 @@ variable "ec2_vpc_id" {
   description = "VPC to create the resources"
 }
 
-variable "s3_bucket_name" {
-  type = string
-  description = "Name of the S3 bucket to create"
-}
+
